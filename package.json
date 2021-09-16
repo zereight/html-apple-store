@@ -1,0 +1,17 @@
+{
+  "name": "html-apple-store",
+  "homepage": "https://zereight.github.io/html-apple-store",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "gh-pages -d ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zereight/html-apple-store.git"
+  },
+  "author": "zereight",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zereight/html-apple-store/issues"
+  }
+}
