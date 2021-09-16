@@ -16,7 +16,7 @@
   min-width: 42rem;
 
   height: 100%;
-  background-image: url("/src/images/iphone_13_large.jpg");
+  background-image: url("./src/images/iphone_13_large.jpg");
   background-size: cover;
 }
 
@@ -33,7 +33,7 @@
   }
 
   .iphone_13 > .device-img {
-    background-image: url("/src/images/iphone_13_medium.jpg");
+    background-image: url("./src/images/iphone_13_medium.jpg");
   }
 }
 
