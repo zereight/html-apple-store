@@ -1,6 +1,6 @@
 {
   "name": "html-apple-store",
-  "homepage": "https://zereight.github.io/html-apple-store",
+  "homepage": "https://zereight.github.io/html-apple-store/index.html",
   "version": "1.0.0",
   "scripts": {
     "deploy": "gh-pages -d ./"
