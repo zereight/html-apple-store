@@ -1,3 +1,5 @@
+@import url("http://fonts.googleapis.com/earlyaccess/notosanskr.css");
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -93,7 +95,36 @@ video {
   font-family: "Myriad Pro", sans-serif;
   box-sizing: border-box;
 }
+
+body,
+table,
+th,
+td,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+textarea,
+blockquote,
+span,
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
 /* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
@@ -107,17 +138,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -125,6 +160,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -275,7 +311,7 @@ a:active {
 
 .button {
   margin-top: 1.75rem;
-  max-width: 10rem;
+  max-width: 20rem;
   height: 2.75rem;
   font-size: 0.9rem;
   letter-spacing: 0.1em;
@@ -341,10 +377,11 @@ a:active {
 
 .sub-text {
   margin-top: 1.25rem;
-  max-width: 50vw;
+  max-width: 40vw;
   letter-spacing: 0.007em;
   text-align: center;
   font-size: 2rem;
+  line-height: 3rem;
 }
 
 .sub-text2 {
